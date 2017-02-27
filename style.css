@@ -16,17 +16,26 @@ background-size: cover;
 
 .right-column {
 
-background: url(img/right-column.jpg)
-/*background-size: cover;*/
+background: url(img/right-column.jpg);
+
+
+
 }
 
+.bgtitle {
 
+  background-image: url(img/title.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 250px;
+
+}
 
 h1 {
 
 color: white;
 text-align: center;
-padding: 70px 0px;
+padding: 70px 20px;
 
 }
 
@@ -36,23 +45,35 @@ h2 {
 font-family: sans-serif;
 color: white;
 text-align: justify;
-border-top: yellow;
+border-top: yellow solid 3px;
 padding: 10px 30px;
 }
 
 h3 {
 
   font-family: sans-serif;
-  /*color: black;*/
   text-align: justify;
   background-color: yellow;
   padding: 5px 30px;
 
 }
 
-li {
+h4 {
 
-  color: white;
+color: pink;
+background: yellow;
+font-size: 10px;
+padding: 10px 0px;
+margin-left: 10px;
+padding-left: 10px;
+}
+
+
+.clockimage {
+
+color: white;
+
+
 }
 
 
@@ -60,6 +81,7 @@ div.bloctexte {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	width: 250px;
+
 	/*padding-left: 50px;*/
 }
 
@@ -84,5 +106,32 @@ border: yellow solid 2px;
 p{
 
 padding-left: 30px;
+color: white;
+
+}
+
+.list {
+
+border: yellow solid 1px;
+margin: -30px 0px 10px 10px;
+padding: 50px 10px 10px 10px;
+
+}
+
+
+
+li {
+
+  color: white;
+}
+.star {
+
+ list-style-image : url(img/star1.jpg);
+
+}
+
+.none {
+
+list-style-type: none;
 
 }
