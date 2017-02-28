@@ -16,7 +16,7 @@ background-size: cover;
 
 .right-column {
 
-background: url(img/right-column.jpg);
+background: url(img/right.jpg);
 
 
 
@@ -24,10 +24,11 @@ background: url(img/right-column.jpg);
 
 .bgtitle {
 
-  background-image: url(img/title.jpg);
-  background-size: cover;
-  height: 300px;
-  width: 250px;
+  background-image: url(img/head-right.jpg);
+  /*background-position: left;*/
+  height: 385px;
+  width: 292px;
+  padding: 0px;
 
 }
 
@@ -35,7 +36,7 @@ h1 {
 
 color: white;
 text-align: center;
-padding: 70px 20px;
+padding: 70px 0px;
 
 }
 
@@ -75,7 +76,24 @@ color: white;
 
 
 }
+.cartouche {
 
+background: grey;
+border-top: yellow solid 2px;
+border-bottom: yellow solid 2px;
+text-align: justify;
+max-width: 300px;
+margin: auto;
+padding : 10px 0px 10px 0px;
+
+}
+.yellow {
+
+color: yellow;
+border-left: yellow solid 2px;
+padding-top: 10px;
+
+}
 
 div.bloctexte {
 	font-family: Arial, Helvetica, sans-serif;
@@ -110,6 +128,16 @@ color: white;
 
 }
 
+
+.title-bottom {
+
+text-align: center;
+color: white;
+font-size: 20px;
+margin-top: 30px;
+
+}
+
 .list {
 
 border: yellow solid 1px;
@@ -133,5 +161,25 @@ li {
 .none {
 
 list-style-type: none;
+
+}
+
+
+.bullet-yellow {
+
+  list-style-image : url(img/bullet.gif);
+
+
+}
+
+.li-grey {
+
+list-style-type: none;
+padding: 10px 0px 10px 10px;
+margin: 10px 0px 10px 0px;
+background: darkgrey;
+color: grey;
+border-top: darkgrey solid 1px;
+
 
 }
